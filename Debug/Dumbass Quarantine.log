@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\C++ Projects\Dumbass Quarantine\Dumbass Quarantine\Source.cpp(148,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\C++ Projects\Dumbass Quarantine\Dumbass Quarantine\Source.cpp(152,6): warning C4101:  'GameIntro': unreferenced local variable
+  Dumbass Quarantine.vcxproj -> C:\C++ Projects\Dumbass Quarantine\Dumbass Quarantine\Debug\Dumbass Quarantine.exe
