@@ -54,10 +54,13 @@ bool PlayGame(int LevelDifficulty)
 			"cout" stands for Character OUTPUT, and the left-facing angle brackets (<<) stand for Insertion Operator.
 	"		cin" stands for Character INPUT, and the RIGHT-facing angle brackets (>>) stand for Extraction Operator.
 	*/
+if (LevelDifficulty <= 1)
+{
 	std::cout << "\nYou are a dumbass colonist trying to get the fuck outta dodge...\n";
 	Sleep(2000);
 	std::cout << "The only way they'll let you out, is if you prove you AREN'T a dumbass...\n";
 	Sleep(2000);
+}
 	std::cout << std::endl;// (Enter) New Line
 	std::cout << "You're on level " << LevelDifficulty << ", so good luck with that..\n";
 	Sleep(2000);
