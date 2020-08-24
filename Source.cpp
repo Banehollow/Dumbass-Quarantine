@@ -60,6 +60,7 @@ if (LevelDifficulty <= 1)
 	Sleep(2000);
 	std::cout << "The only way they'll let you out, is if you prove you AREN'T a dumbass...\n";
 	Sleep(2000);
+	std::cout << "The code adds up to " << CodeSum << ", and multiplies to make 3, now get those wheels spinning.";
 }
 	std::cout << std::endl;// (Enter) New Line
 	std::cout << "You're on level " << LevelDifficulty << ", so good luck with that..\n";
